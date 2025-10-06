@@ -1,0 +1,13 @@
+# --- Logging & Safety --------------------------------------------------------
+
+log() { echo "[direnv] $*" >&2; }
+
+# --- Generic helpers ---------------------------------------------------------
+
+# Load `.env` file (if present)
+use_dotenv() {
+  if [[ -f .env ]]; then
+    log "Loading .env"
+    dotenv
+  fi
+}

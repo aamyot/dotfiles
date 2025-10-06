@@ -1,0 +1,32 @@
+[default]
+region = us-east-1
+[sso-session sso]
+sso_start_url = https://d-9a670afbc9.awsapps.com/start
+sso_region = us-east-2
+sso_registration_scopes = sso:account:access
+[profile chord-development-admin]
+sso_start_url = https://d-9a670afbc9.awsapps.com/start
+sso_region = us-east-2
+sso_account_id = 501922849989
+sso_role_name = AdministratorAccess
+region = us-east-1
+[profile chord-staging-admin]
+sso_start_url = https://d-9a670afbc9.awsapps.com/start
+sso_region = us-east-2
+sso_account_id = 470689186102
+sso_role_name = AdministratorAccess
+region = us-east-1
+[profile chord-production-admin]
+sso_start_url = https://d-9a670afbc9.awsapps.com/start/#
+sso_region = us-east-2
+sso_account_id = 495030305857
+sso_role_name = AdministratorAccess
+region = us-east-1
+[profile chord-data]
+sso_start_url = https://d-9a670afbc9.awsapps.com/start/#
+sso_region = us-east-2
+sso_account_id = 488618437982
+sso_role_name = AdministratorAccess
+region = us-east-1
+
+

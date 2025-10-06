@@ -2,7 +2,12 @@
 
 echo "Setting up macOS"
 
-brew install curl git antigen zsh asdf cmake pkg-install postgresql heroku direnv
+brew install curl git antigen zsh asdf cmake pkg-install 
+brew install postgresql heroku direnv awscli jq
+
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew install terragrunt
 
 brew install --cask iterm2
 brew install --cask visual-studio-code
@@ -10,7 +15,11 @@ brew install --cask google-chrome
 brew install --cask slack
 brew install --cask zoom
 brew install --cask git-credential-manager
+brew install --cask docker
+brew install --cask postman
 
 asdf plugin add ruby
 asdf plugin add nodejs
 asdf plugin add yarn
+asdf plugin add terragrunt
+asdf plugin add terraform

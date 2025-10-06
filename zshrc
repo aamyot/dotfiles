@@ -1,5 +1,4 @@
 export HOMEBREW_REPOSITORY="/opt/homebrew"
-
 source $HOMEBREW_REPOSITORY/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
