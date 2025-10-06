@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+
+echo "Setting up macOS"
+
+brew install curl git antigen zsh asdf cmake pkg-install postgresql heroku direnv
+
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask google-chrome
+brew install --cask slack
+brew install --cask zoom
+brew install --cask git-credential-manager
+
+asdf plugin add ruby
+asdf plugin add nodejs
+asdf plugin add yarn
